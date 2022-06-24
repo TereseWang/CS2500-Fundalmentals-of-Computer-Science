@@ -1,7 +1,7 @@
-#reader(lib"read.ss""wxme")WXME0108 ## 
+#reader(lib"read.ss""wxme")WXME0109 ## 
 #|
    This file uses the GRacket editor format.
-   Open this file in DrRacket version 7.1 or later to read it.
+   Open this file in DrRacket version 7.9 or later to read it.
 
    Most likely, it was created by saving a program in DrRacket,
    and it probably contains a program with non-text elements
@@ -16,27 +16,27 @@
 4 1 34 #"(lib \"syntax-browser.ss\" \"mrlib\")\0"
 1 0 36 #"(lib \"cache-image-snip.ss\" \"mrlib\")\0"
 1 0 68
-(
- #"((lib \"image-core.ss\" \"mrlib\") (lib \"image-core-wxme.rkt\" \"mr"
- #"lib\"))\0"
+(0
+ #"((lib \"image-core.ss\" \"mrlib\") (lib \"image-core-wxme.rkt\" \"mrl"
+ #"ib\"))\x00"
 ) 1 0 16 #"drscheme:number\0"
 3 0 44 #"(lib \"number-snip.ss\" \"drscheme\" \"private\")\0"
 1 0 36 #"(lib \"comment-snip.ss\" \"framework\")\0"
 1 0 93
-(
- #"((lib \"collapsed-snipclass.ss\" \"framework\") (lib \"collapsed-sni"
- #"pclass-wxme.ss\" \"framework\"))\0"
+(1
+ #"((lib \"collapsed-snipclass.ss\" \"framework\") (lib \"collapsed-snip"
+ #"class-wxme.ss\" \"framework\"))\x00"
 ) 0 0 43 #"(lib \"collapsed-snipclass.ss\" \"framework\")\0"
 0 0 19 #"drscheme:sexp-snip\0"
 0 0 29 #"drscheme:bindings-snipclass%\0"
 1 0 101
-(
- #"((lib \"ellipsis-snip.rkt\" \"drracket\" \"private\") (lib \"ellipsi"
- #"s-snip-wxme.rkt\" \"drracket\" \"private\"))\0"
+(2
+ #"((lib \"ellipsis-snip.rkt\" \"drracket\" \"private\") (lib \"ellipsis"
+ #"-snip-wxme.rkt\" \"drracket\" \"private\"))\x00"
 ) 2 0 88
-(
- #"((lib \"pict-snip.rkt\" \"drracket\" \"private\") (lib \"pict-snip.r"
- #"kt\" \"drracket\" \"private\"))\0"
+(3
+ #"((lib \"pict-snip.rkt\" \"drracket\" \"private\") (lib \"pict-snip.rk"
+ #"t\" \"drracket\" \"private\"))\x00"
 ) 0 0 55
 #"((lib \"snip.rkt\" \"pict\") (lib \"snip-wxme.rkt\" \"pict\"))\0"
 1 0 34 #"(lib \"bullet-snip.rkt\" \"browser\")\0"
@@ -57,7 +57,7 @@
 1 0 10 #"text-box%\0"
 1 0 32 #"(lib \"text-snipclass.ss\" \"xml\")\0"
 1 0 1 6 #"wxloc\0"
-          0 0 76 0 1 #"\0"
+          0 0 81 0 1 #"\0"
 0 75 1 #"\0"
 0 12 90 -1 90 -1 3 -1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 255 255 255 1 -1 0 9
 #"Standard\0"
@@ -206,67 +206,13 @@
 1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 -1 -1 2 38
 #"plt:module-language:test-coverage-off\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 1 0 0 0 0 0 0 255 165 0 0 0 0 -1 -1 4 1
-#"\0"
-0 71 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
--1 -1 4 1 #"\0"
+1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 1 0 0 0 0 0 0 255 165 0 0 0 0 -1 -1 0 36
+#"mrlib/syntax-browser:subtitle-color\0"
 0 -1 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0 0 0 1.0 1.0 1.0 0 0 255 0 0 0 -1
--1 4 1 #"\0"
-0 71 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0 0 0 1.0 1.0 1.0 0 0 255 0 0 0 -1
--1 4 1 #"\0"
-0 71 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1.0 1.0 1.0 0 100 0 0 0 0 -1
--1 0 1 #"\0"
+1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0 0 0 0 0 0 36 36 140 255 255 255 -1
+-1 0 42 #"mrlib/syntax-browser:focused-syntax-color\0"
 0 -1 1 #"\0"
-0 13 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
--1 -1 2 1 #"\0"
-0 -1 1 #"\0"
-0 13 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
--1 -1 2 1 #"\0"
-0 71 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
--1 -1 2 1 #"\0"
-0 71 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1.0 1.0 1.0 0 100 0 0 0 0 -1
--1 2 1 #"\0"
-0 -1 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
--1 -1 2 1 #"\0"
-0 -1 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0 0 0 1.0 1.0 1.0 65 105 225 0 0 0
--1 -1 4 1 #"\0"
-0 -1 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 255 255 255 -1 -1
-17 1 #"\0"
-0 -1 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 255 255 255 -1 -1
-24 1 #"\0"
-0 -1 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 255 255 255 -1 -1
-15 1 #"\0"
-0 -1 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 255 255 255 -1 -1
-44 1 #"\0"
-0 -1 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 255 255 255 -1 -1
-46 1 #"\0"
-0 -1 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 255 255 255 -1 -1
-14 1 #"\0"
-0 -1 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 255 255 255 -1 -1
-4 1 #"\0"
-0 71 1 #"\0"
-1.0 0 -1 -1 93 -1 -1 -1 0 0 0 0 0 0 0 0 0 1.0 1.0 1.0 255 0 0 0 0 0 -1
--1 2 1 #"\0"
-0 70 1 #"\0"
-1.0 0 -1 -1 93 -1 -1 -1 0 0 0 0 0 0 0 0 0 1.0 1.0 1.0 148 0 211 0 0 0 -1
--1 2 1 #"\0"
-0 70 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0 0 0 1.0 1.0 1.0 0 0 255 0 0 0 -1
+1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0 0 0 0 0 0 34 139 34 255 255 255 -1
 -1 0 1 #"\0"
 0 75 6 #"Menlo\0"
 0.0 15 90 -1 90 -1 3 -1 0 1 0 1 0 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
@@ -282,21 +228,90 @@
 0 -1 -1 2 1 #"\0"
 0 -1 1 #"\0"
 1.0 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 175 0 0
-0 -1 -1           0 1114 0 4 3 85
-(
- #";; The first three lines of this file were inserted by DrRacket. The"
- #"y record metadata"
+0 -1 -1 4 1 #"\0"
+0 71 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
+-1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 255 0 0
+0 -1 -1 4 1 #"\0"
+0 71 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 255 0 0
+0 -1 -1 4 1 #"\0"
+0 71 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 100 0 0 0
+0 -1 -1 0 1 #"\0"
+0 -1 1 #"\0"
+0.0 13 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
+-1 -1 2 1 #"\0"
+0 -1 1 #"\0"
+0.0 13 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
+-1 -1 2 1 #"\0"
+0 71 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
+-1 -1 2 1 #"\0"
+0 71 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 100 0 0 0
+0 -1 -1 2 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
+-1 -1 2 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 65 105 225 0
+0 0 -1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 1 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 255 -1 -1 17 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 1 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 255 -1 -1 24 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 1 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 255 -1 -1 15 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 1 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 255 -1 -1 44 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 1 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 255 -1 -1 46 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 1 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 255 -1 -1 14 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 1 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 255 -1 -1 4 1 #"\0"
+0 71 1 #"\0"
+1.0 0 -1 -1 93 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 255 0 0 0 0
+0 -1 -1 2 1 #"\0"
+0 70 1 #"\0"
+1.0 0 -1 -1 93 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 148 0 211 0
+0 0 -1 -1 2 1 #"\0"
+0 70 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 255 0 0
+0 -1 -1 0 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 36 36 140
+255 255 255 -1 -1 0 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 34 139 34
+255 255 255 -1 -1 2 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0 0 0 1.0 1.0 1.0 0 0 255 0 0 0 -1
+-1           0 1114 0 4 3 85
+(4
+ #";; The first three lines of this file were inserted by DrRacket. They"
+ #" record metadata"
 ) 0 0 4 29 1 #"\n"
 0 0 4 3 85
-(
- #";; about the language level of this file in a form that our tools ca"
- #"n easily process."
+(5
+ #";; about the language level of this file in a form that our tools can"
+ #" easily process."
 ) 0 0 4 29 1 #"\n"
-0 0 4 3 185
-(
- #"#reader(lib \"htdp-beginner-reader.ss\" \"lang\")((modname Asignment"
- #"1_Wang) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t"
- #" constructor repeating-decimal #f #t none #f () #f)))"
+0 0 4 3 181
+(6
+ #"#reader(lib \"htdp-beginner-reader.ss\" \"lang\")((modname Assignment"
+ #"1) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t const"
+ #"ructor repeating-decimal #f #t none #f () #f)))"
 ) 0 0 4 29 1 #"\n"
 0 0 17 3 11 #";Exercise 3"
 0 0 24 29 1 #"\n"
@@ -304,9 +319,9 @@
 #";Define a function calculating the cost of one lecture in CS 2500."
 0 0 24 29 1 #"\n"
 0 0 17 3 77
-(
- #";The total school fee for one year is 49,497, and one year have two "
- #"semesters"
+(7
+ #";The total school fee for one year is 49,497, and one year have two s"
+ #"emesters"
 ) 0 0 24 29 1 #"\n"
 0 0 17 3 65
 #";One semester have four coureses and one courses had 38 classes. "
@@ -376,9 +391,9 @@
 0 0 17 3 11 #";Exercise 5"
 0 0 24 29 1 #"\n"
 0 0 17 3 76
-(
- #";Do not use dangling parentheses: the closing right parentheses shou"
- #"ld be on"
+(8
+ #";Do not use dangling parentheses: the closing right parentheses shoul"
+ #"d be on"
 ) 0 0 24 29 1 #"\n"
 0 0 17 3 51 #";the same line as the last expression of your code."
 0 0 24 29 1 #"\n"
@@ -386,9 +401,9 @@
 0 0 17 3 11 #";Exercise 6"
 0 0 24 29 1 #"\n"
 0 0 17 3 73
-(
- #";four forms of atomic data: numbers, strings, images, and Boolean va"
- #"lues."
+(9
+ #";four forms of atomic data: numbers, strings, images, and Boolean val"
+ #"ues."
 ) 0 0 24 29 1 #"\n"
 0 0 17 3 21 #";Number: (+ 1 3) == 4"
 0 0 24 29 1 #"\n"
@@ -396,9 +411,9 @@
 0 0 24 29 1 #"\n"
 0 0 17 3 38 #";Images: (circle 5 \"solid\" \"blue\") == "
 0 6           4 17 87
-(
- #"(#(struct:translate 5 5 #(struct:ellipse 10 10 0 255 \"blue\")) #(st"
- #"ruct:bb 10 10 10) #f)"
+(10
+ #"(#(struct:translate 5 5 #(struct:ellipse 10 10 0 255 \"blue\")) #(str"
+ #"uct:bb 10 10 10) #f)"
 ) 0 0 24 29 1 #"\n"
 0 0 17 3 44 #";Boolean values: (and #true #true) == #true "
 0 0 24 29 1 #"\n"
@@ -406,14 +421,14 @@
 0 0 17 3 11 #";Exercise 7"
 0 0 24 29 1 #"\n"
 0 0 17 3 84
-(
- #";Write a function pig-latinize that words begin with a consonant are"
- #" shifted so that"
+(11
+ #";Write a function pig-latinize that words begin with a consonant are "
+ #"shifted so that"
 ) 0 0 24 29 1 #"\n"
 0 0 17 3 86
-(
- #";the first letter goes to the end of the word and is then followed b"
- #"y the suffix \"ay\"."
+(12
+ #";the first letter goes to the end of the word and is then followed by"
+ #" the suffix \"ay\"."
 ) 0 0 24 29 1 #"\n"
 0 0 24 3 1 #"("
 0 0 14 3 12 #"check-expect"
@@ -477,9 +492,9 @@
 0 0 17 3 11 #";Exercise 8"
 0 0 24 29 1 #"\n"
 0 0 17 3 82
-(
- #";Write a function, middle, which, given three arguements, produces t"
- #"he second one."
+(13
+ #";Write a function, middle, which, given three arguements, produces th"
+ #"e second one."
 ) 0 0 24 29 1 #"\n"
 0 0 24 3 1 #"("
 0 0 14 3 12 #"check-expect"
@@ -540,22 +555,22 @@
 0 0 24 3 1 #")"
 0 0 24 29 1 #"\n"
 0 0 17 3 70
-(
- #";This function can take number as inputs and produce number as value"
- #"s."
+(14
+ #";This function can take number as inputs and produce number as values"
+ #"."
 ) 0 0 24 29 1 #"\n"
 0 0 17 3 66
 #";It can also take strings as inputs and produce strings as output."
 0 0 24 29 1 #"\n"
 0 0 17 3 87
-(
- #";This function also take Boolean Values as inputs and produce Boolea"
- #"n values as output."
+(15
+ #";This function also take Boolean Values as inputs and produce Boolean"
+ #" values as output."
 ) 0 0 24 29 1 #"\n"
 0 0 17 3 88
-(
- #";Lastly, if I put primitive operations of image as inputs, it will p"
- #"roduce visual image."
+(16
+ #";Lastly, if I put primitive operations of image as inputs, it will pr"
+ #"oduce visual image."
 ) 0 0 24 29 1 #"\n"
 0 0 17 3 55 #";or, if I input images, it will output images as well. "
 0 0 24 29 1 #"\n"
@@ -571,17 +586,17 @@
 0 0 24 29 1 #"\n"
 0 0 17 3 1 #";"
 0 6           4 17 95
-(
- #"(#(struct:translate 100 100 #(struct:ellipse 200 200 0 255 \"red\"))"
- #" #(struct:bb 200 200 200) #f)"
+(17
+ #"(#(struct:translate 100 100 #(struct:ellipse 200 200 0 255 \"red\")) "
+ #"#(struct:bb 200 200 200) #f)"
 ) 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
 0 0 17 3 11 #";Exercise 9"
 0 0 24 29 1 #"\n"
 0 0 17 3 96
-(
- #";Write a function which, given the number of verticle meter climbed,"
- #" produces the cost of a trip"
+(18
+ #";Write a function which, given the number of verticle meter climbed, "
+ #"produces the cost of a trip"
 ) 0 0 24 29 1 #"\n"
 0 0 24 3 1 #"("
 0 0 14 3 12 #"check-expect"
@@ -685,14 +700,14 @@
 0 0 17 3 12 #";Exercise 10"
 0 0 24 29 1 #"\n"
 0 0 17 3 86
-(
- #";Write a function valid-date? which, given a string representing the"
- #" month of the year"
+(19
+ #";Write a function valid-date? which, given a string representing the "
+ #"month of the year"
 ) 0 0 24 29 1 #"\n"
 0 0 17 3 91
-(
- #";and a number representing the day of the month, returns a Boolean i"
- #"f this is a valid date."
+(20
+ #";and a number representing the day of the month, returns a Boolean if"
+ #" this is a valid date."
 ) 0 0 24 29 1 #"\n"
 0 0 24 3 1 #"("
 0 0 14 3 12 #"check-expect"
@@ -1356,9 +1371,8 @@
 #";Define the function image-classify, which consumes an image"
 0 0 24 29 1 #"\n"
 0 0 17 3 67
-(
- #";and conditionally produces \"tall\" if the image is taller than wid"
- #"e"
+(21
+ #";and conditionally produces \"tall\" if the image is taller than wide"
 ) 0 0 24 29 1 #"\n"
 0 0 17 3 35 #";\"wide\" if image is wider than tall"
 0 0 24 29 1 #"\n"
@@ -1370,9 +1384,9 @@
 0 0 14 3 14 #"image-classify"
 0 0 24 3 1 #" "
 0 6           4 21 92
-(
- #"(#(struct:translate 30 30 #(struct:ellipse 60 60 0 outline \"red\"))"
- #" #(struct:bb 60 60 60) #f)"
+(22
+ #"(#(struct:translate 30 30 #(struct:ellipse 60 60 0 outline \"red\")) "
+ #"#(struct:bb 60 60 60) #f)"
 ) 0 0 24 3 2 #") "
 0 0 19 3 8 #"\"square\""
 0 0 24 3 1 #")"
@@ -1383,11 +1397,11 @@
 0 0 14 3 14 #"image-classify"
 0 0 24 3 1 #" "
 0 6           4 21 229
-(
- #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
- #"0 0 0 0) #(struct:pulled-point 0 0 50 0 0 0) #(struct:pulled-point 0"
- #" 0 50 100 0 0) #(struct:pulled-point 0 0 0 100 0 0)) 255 \"blue\")) "
- #"#(struct:bb 50 100 100) #f)"
+(23
+ #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 0"
+ #" 0 0 0) #(struct:pulled-point 0 0 50 0 0 0) #(struct:pulled-point 0 0"
+ #" 50 100 0 0) #(struct:pulled-point 0 0 0 100 0 0)) 255 \"blue\")) #(s"
+ #"truct:bb 50 100 100) #f)"
 ) 0 0 24 3 2 #") "
 0 0 19 3 6 #"\"tall\""
 0 0 24 3 1 #")"
@@ -1398,9 +1412,9 @@
 0 0 14 3 14 #"image-classify"
 0 0 24 3 1 #" "
 0 6           4 21 94
-(
- #"(#(struct:translate 30 15 #(struct:ellipse 60 30 0 outline \"black\""
- #")) #(struct:bb 60 30 30) #f)"
+(24
+ #"(#(struct:translate 30 15 #(struct:ellipse 60 30 0 outline \"black\")"
+ #") #(struct:bb 60 30 30) #f)"
 ) 0 0 24 3 2 #") "
 0 0 19 3 6 #"\"wide\""
 0 0 24 3 1 #")"
